@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jilebi bhatti-website to order</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="first-container">
+        <img src="images/google-img.png" alt="machine-img">
+        <img class="hammer-image" src="images/hammer image.png" alt="hammer-image">
+        <img class="machine-img" src="images/machine image-2.png" alt="machine-img">
+        <img class="machine-img" src="images/image of circle.png" alt="machine-img">
+        <h1>WELCOME</h1>
+        <h3 class="heading3">jilebi order-website</h3>
+        <img class="welding-machine-img" src="images/welding machine.png" alt="machine-img">
+        <img src="images/helmet.png" alt="helmet-img">
+        <img src="images/toolbox.png" alt="machine-img">
+        <img src="images/google-img.png" alt="machine-img">
+
+
+
+    </div>
+    <hr>
+    <div class="second-container">
+
+        <div class="transportation">
+            <h1>Transportation</h1>
+            <div class="state">
+                <h3>Select State:
+                    <select id="state-drop-down">
+                        <option>select...</option>
+                        <option class="state-name">MAHARASTRA</option>
+                        <option class="state-name">GUJARAT</option>
+                        <option class="state-name">ODISHA</option>
+                        <option class="state-name">MADHYA PRADESH</option>
+                        <option class="state-name">TAMILNADU</option>
+                        <option class="state-name">KARNATAKA</option>
+                        <option class="state-name">TELANGANA</option>
+                        <option class="state-name">ANDHRA PRADESH</option>
+
+                    </select>
+                </h3>
+            </div>
+
+            <div class="state">
+                <h3>Select District:
+                    <select id="district-drop-down">
+                        <option>select.....</option>
+                    </select>
+                </h3>
+            </div>
+            <div class="state">
+                <h3> Select Branch:<select id="branch-drop-down">
+
+                    </select></h3>
+            </div>
+            <div class="code-numberDiv">
+                <h3 class="phone_number"></h3>
+                <h1 class="code"></h1>
+            </div>
+        </div>
+
+
+    </div>
+    <hr>
+    <div class="third-container">
+        <div class="imgs-bhatti">
+            <img class="img" src="images/image1-modified.png">
+            <img class="img" src="images/image2-modified.png">
+            <img class="img" src="images/image3-modified.png">
+            <img class="img" src="images/image4-modified.png">
+
+        </div>
+    </div>
+    <div class="fourth-container">
+        <h1>Details for Order</h1>
+        <div class="form">
+            <form method="post" autocomplete="off" name="google-sheet">
+                <div class="form-group">State:
+                    <input type="text" name="state" id="state-name" class="form-control" placeholder="state..." value=""
+                        required="" />
+                </div>
+                <div class="form-group">District:
+                    <input type="text" name="district" id="dist-name" class="form-control" placeholder="District.."
+                        value="" required="" />
+                </div>
+                <div class="form-group">Branch:
+                    <input type="text" name="branch" id="branch-name" class="form-control" placeholder="branch..."
+                        value="" />
+                </div>
+                <div class="form-group">Code:
+                    <input type="text" name="Code" id="code" class="form-control" placeholder="code.." value="" />
+                </div>
+
+                <div class="form-group">name:
+                    <input type="text" name="customer" class="form-control" placeholder="name..." value="" />
+                </div>
+                <div class="form-group">No.of Bhatti:
+                    <input type="number" name="no.of bhatti" class="form-control" placeholder="no.of bhatti" value="" />
+                </div>
+
+                <div class="form-group">Phone:
+                    <input type="text" name="Phone" class="form-control" placeholder="Contact Number *" value="" />
+                </div>
+                <div class="form-group">whatsapp.no:
+                    <input type="text" name="whatsapp.no" class="form-control" placeholder="whatsapp.no" value="" />
+                </div>
+
+                <input type="submit" id="btn" name="submit" class="btnSubmit btn-block" value="submit"
+                    href="split.html" />
+
+            </form>
+        </div>
+    </div>
+    <div class="last-container">
+        <h2 class="owner">OWNER-NAME:IBRAHIM BAIG</h2>
+        <h2 class="owner">CONTACT:9866705071</h2>
+        <h4>website-designer:md.naziya</h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
